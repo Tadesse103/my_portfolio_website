@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tech Portfolio</title>
+  <link rel="icon" type="image/png" href="./assets/images/twoway.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./assets/images/myphoto.jpg" alt="Profile Photo" class="profile-logo">
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </div>
+      <ul id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I am Tdesse</h1>
+        <p>A passionate full-stack developer for creating innovative, user-friendly web applications. I
+          transform ideas into digital experiences through clean code and creative design, always striving to push the
+          boundaries of what's possible on the web.</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+      </div>
+      <div class="animated-icons">
+        <img src="./assets/images/myphoto2.jpg" alt="Tech Innovation"
+          class="animated-img img1">
+        <img src="./assets/images/myphoto2.jpg" alt="Creative Coding"
+          class="animated-img img2">
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="./assets/images/myphoto.jpg" alt="Professional Developer"
+            id="profile-image">
+          <div class="image-overlay">
+            <button class="know-more-btn">
+              <i class="fas fa-info-circle"></i>
+              Know More
+            </button>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Hi, I'm Tdesse </h3>
+          <p>I am a passionate frontend developer with some experience in various technologies. I love building
+            innovative
+            solutions and learning new things every day.</p>
+          <p>With a strong foundation in both front-end and back-end development, I enjoy creating user-friendly
+            applications that solve real-world problems. My expertise spans across modern web technologies, and I'm
+            always eager to take on new challenges.</p>
+          <p>When I'm not coding, you can find me exploring new technologies, I'm so interested for contributing to
+            open-source projects, or
+            sharing knowledge with the developer community.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <h4>2+</h4>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat">
+              <h4>5+</h4>
+              <p>School Projects Completed</p>
+            </div>
+            <div class="stat">
+              <h4>10+</h4>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a href="assets/personal resume.pdf" download="My_Resume.pdf" class="download-btn">
+    Download CV
+  </a>
+
+  <section id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+
+      <!-- Technical Skills -->
+      <div class="skills-section">
+        <h3>Technical Skills</h3>
+        <div class="technical-skills">
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fab fa-html5"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="95"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fab fa-js-square"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percentage">60%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="60"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">React</span>
+                <span class="skill-percentage">65%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="65"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fab fa-node-js"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">Node.js</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="75"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fas fa-database"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">Database</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="75"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">React Native & Expo</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="70"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fab fa-python"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">Python</span>
+                <span class="skill-percentage">30%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="30"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <div class="skill-icon-wrapper">
+                <i class="fas fa-brain"></i>
+              </div>
+              <div class="skill-text">
+                <span class="skill-name">AI & Machine Learning</span>
+                <span class="skill-percentage">40%</span>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" data-percentage="40"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skills-section">
+        <h3>Soft Skills</h3>
+        <div class="soft-skills">
+          <div class="soft-skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-puzzle-piece"></i>
+            </div>
+            <h4>Problem Solving</h4>
+            <p>Analytical thinking and creative solutions to complex challenges</p>
+            <div class="skill-level">
+              <div class="level-dots">
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+              </div>
+              <span class="level-text">Advance</span>
+            </div>
+          </div>
+
+          <div class="soft-skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4>Collaboration</h4>
+            <p>Effective teamwork and communication in diverse environments</p>
+            <div class="skill-level">
+              <div class="level-dots">
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+              </div>
+              <span class="level-text">medium</span>
+            </div>
+          </div>
+
+          <div class="soft-skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <h4>Networking</h4>
+            <p>Building professional relationships and industry connections</p>
+            <div class="skill-level">
+              <div class="level-dots">
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+              </div>
+              <span class="level-text">medium</span>
+            </div>
+          </div>
+
+          <div class="soft-skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h4>Critical Thinking</h4>
+            <p>Evaluating information and making informed decisions</p>
+            <div class="skill-level">
+              <div class="level-dots">
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+              </div>
+              <span class="level-text">medium</span>
+            </div>
+          </div>
+
+          <div class="soft-skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h4>Time Management</h4>
+            <p>Efficiently organizing tasks and meeting deadlines</p>
+            <div class="skill-level">
+              <div class="level-dots">
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+              </div>
+              <span class="level-text">medium</span>
+            </div>
+          </div>
+
+          <div class="soft-skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h4>Creativity</h4>
+            <p>Innovative approaches and out-of-the-box thinking</p>
+            <div class="skill-level">
+              <div class="level-dots">
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+                <span class="dot active"></span>
+              </div>
+              <span class="level-text">medium</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <div class="project-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <h3>E-Commerce Website</h3>
+          <p>A full-stack e-commerce platform built with React and Node.js, featuring user authentication and payment
+            integration.</p>
+          <div class="project-links">
+            <a href="#" class="project-link github-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="#" class="project-link live-link">
+              <i class="fas fa-external-link-alt"></i> Live Preview
+            </a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-icon">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <h3>Task Management App</h3>
+          <p>A collaborative task management application with real-time updates using WebSockets and MongoDB.</p>
+          <div class="project-links">
+            <a href="#" class="project-link github-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="#" class="project-link live-link">
+              <i class="fas fa-external-link-alt"></i> Live Preview
+            </a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-icon">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3>personal libraray</h3>
+          <p>An interactive dashboard for simple CRUD book managment with plain js and html&css.</p>
+          <div class="project-links">
+            <a href="#" class="project-link github-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="file:///C:/Users/hp/Desktop/personal_libraray/index.html" class="project-link live-link">
+              <i class="fas fa-external-link-alt"></i> Live Preview
+            </a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Mobile App UI/UX</h3>
+          <p>A responsive mobile application design with modern UI components and smooth animations.</p>
+          <div class="project-links">
+            <a href="#" class="project-link github-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="#" class="project-link live-link">
+              <i class="fas fa-external-link-alt"></i> Live Preview
+            </a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>AI Chatbot</h3>
+          <p>An intelligent chatbot powered by machine learning algorithms for customer support automation.</p>
+          <div class="project-links">
+            <a href="#" class="project-link github-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="#" class="project-link live-link">
+              <i class="fas fa-external-link-alt"></i> Live Preview
+            </a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-icon">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio website showcasing projects and skills, built with HTML, CSS, and JavaScript.</p>
+          <div class="project-links">
+            <a href="#" class="project-link github-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://simplefrontendproject.netlify.app" class="project-link live-link">
+              <i class="fas fa-external-link-alt"></i> Live Preview
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="container">
+      <h2>Latest Blog Posts</h2>
+      <p class="blog-intro">Sharing insights, tutorials, and thoughts on web development, technology trends, and best
+        practices.</p>
+
+      <!-- Blog Filters -->
+      <div class="blog-filters">
+        <button class="filter-btn active" data-filter="all">All Posts</button>
+        <button class="filter-btn" data-filter="web-development">Web Development</button>
+        <button class="filter-btn" data-filter="ai-ml">AI & ML</button>
+        <button class="filter-btn" data-filter="mobile">Mobile Development</button>
+        <button class="filter-btn" data-filter="tutorials">Tutorials</button>
+      </div>
+
+      <!-- Blog Posts Grid -->
+      <div class="blog-posts">
+        <article class="blog-post" data-category="web-development">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop"
+              alt="Modern Web Development">
+            <div class="blog-category">Web Development</div>
+          </div>
+          <div class="blog-content">
+            <h3>Modern React Patterns: Hooks and Beyond</h3>
+            <div class="blog-meta">
+              <span class="blog-date"><i class="fas fa-calendar"></i> Dec 15, 2025</span>
+              <span class="blog-read-time"><i class="fas fa-clock"></i> 5 min read</span>
+            </div>
+            <p>Explore the latest React patterns including custom hooks, compound components, and render props. Learn
+              how to write more maintainable and reusable React code.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-post" data-category="ai-ml">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop"
+              alt="AI and Machine Learning">
+            <div class="blog-category">AI & ML</div>
+          </div>
+          <div class="blog-content">
+            <h3>Getting Started with Machine Learning in Python</h3>
+            <div class="blog-meta">
+              <span class="blog-date"><i class="fas fa-calendar"></i> Dec 10, 2025</span>
+              <span class="blog-read-time"><i class="fas fa-clock"></i> 8 min read</span>
+            </div>
+            <p>A comprehensive guide to building your first machine learning model using Python, scikit-learn, and
+              popular ML algorithms. Perfect for developers new to AI.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-post" data-category="mobile">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=250&fit=crop"
+              alt="Mobile App Development">
+            <div class="blog-category">Mobile Development</div>
+          </div>
+          <div class="blog-content">
+            <h3>React Native vs Flutter: Choosing the Right Framework</h3>
+            <div class="blog-meta">
+              <span class="blog-date"><i class="fas fa-calendar"></i> Dec 5, 2025</span>
+              <span class="blog-read-time"><i class="fas fa-clock"></i> 6 min read</span>
+            </div>
+            <p>An in-depth comparison of React Native and Flutter, covering performance, development experience,
+              community support, and when to choose each framework.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-post" data-category="tutorials">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop"
+              alt="CSS Animations Tutorial">
+            <div class="blog-category">Tutorials</div>
+          </div>
+          <div class="blog-content">
+            <h3>Advanced CSS Animations: From Zero to Hero</h3>
+            <div class="blog-meta">
+              <span class="blog-date"><i class="fas fa-calendar"></i> Nov 28, 2025</span>
+              <span class="blog-read-time"><i class="fas fa-clock"></i> 10 min read</span>
+            </div>
+            <p>Master advanced CSS animations with keyframes, transforms, and transitions. Create stunning user
+              interfaces with smooth, performant animations.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-post" data-category="web-development">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop"
+              alt="Node.js Backend">
+            <div class="blog-category">Web Development</div>
+          </div>
+          <div class="blog-content">
+            <h3>Building Scalable APIs with Node.js and Express</h3>
+            <div class="blog-meta">
+              <span class="blog-date"><i class="fas fa-calendar"></i> Nov 20, 2025</span>
+              <span class="blog-read-time"><i class="fas fa-clock"></i> 7 min read</span>
+            </div>
+            <p>Learn how to build robust, scalable REST APIs using Node.js, Express, and best practices for security,
+              validation, and performance optimization.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-post" data-category="ai-ml">
+          <div class="blog-image">
+            <img src="#" alt="Future of AI">
+            <div class="blog-category">AI & ML</div>
+          </div>
+          <div class="blog-content">
+            <h3>The Future of AI in Web Development</h3>
+            <div class="blog-meta">
+              <span class="blog-date"><i class="fas fa-calendar"></i> Nov 15, 2025</span>
+              <span class="blog-read-time"><i class="fas fa-clock"></i> 9 min read</span>
+            </div>
+            <p>Exploring how artificial intelligence is transforming web development, from AI-powered code completion to
+              automated testing and intelligent user interfaces.</p>
+            <a href="#" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Load More Button -->
+      <div class="blog-load-more">
+        <button class="load-more-btn">
+          <i class="fas fa-plus"></i> Load More Posts
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p>I'm always open to discussing new opportunities and interesting projects. Feel free to reach out!</p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> brotadese20@gmail.com</p>
+            <p><strong>Phone:</strong> +251 984389015</p>
+            <p><strong>Location:</strong>Bahir Dar, Ethiopia</p>
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <!-- Success/Error Messages -->
+          <div id="form-message" class="form-message" style="display: none;"></div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="from_name">Full Name *</label>
+              <input type="text" id="from_name" name="from_name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="from_email">Email Address *</label>
+              <input type="email" id="from_email" name="from_email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or inquiry..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn" id="submitBtn">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-loading" style="display: none;">
+                <i class="fas fa-spinner fa-spin"></i> Sending...
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Ethio_Tech Portfolio. </p>
+      <!-- social media -->
+      <div class="social-links">
+        <a href="https://github.com/Tadesse103" target="_blank" class="social-link" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com/yourusername" target="_blank" class="social-link" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="mailto:brotadese50@gmail.com" class="social-link" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
